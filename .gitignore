@@ -1,0 +1,44 @@
+# Clases compiladas
+/*.class
+Screenplay_Project/.*class
+/*.classpath
+/*.project
+
+
+#Metadata
+.metadata
+.metadata/
+
+# Logs
+Screenplay_Project/logs/
+Screenplay_Project/*.logs
+Screenplay_Project/log/
+Screenplay_Project/*.log
+
+# Archivos comprimidos
+Screenplay_Project/*.war
+Screenplay_Project/*.nar
+Screenplay_Project/*.ear
+Screenplay_Project/*.zip
+Screenplay_Project/*.tar.gz
+Screenplay_Project/*.rar
+
+# Reportes serenity
+Screenplay_Project/target/
+target/
+
+# Gradle
+.gradle/
+Screenplay_Project/.gradle/
+Screenplay_Project/build/
+
+# No ignorar el Gradle Wrapper
+!Screenplay_Project/gradle/wrapper/gradle-wrapper.jar
+
+#Archivos Intellij
+.idea/
+Screenplay_Project/*.iml
+*.iml
+
+# Locally stored "Eclipse launch configurations"
+Screenplay_Project/*.launch
